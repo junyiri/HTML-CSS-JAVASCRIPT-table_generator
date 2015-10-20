@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Table Generator</title>
+    <script src="app.js"></script>
+       <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <label>Rows</label>
+    <input id="rowsField" type="number" placeholder="50">
+    <label>Columns</label>
+    <input id="colsField" type="number" placeholder="15">
+    <button onclick="generateTable()">Create Table</button>
+    <h1>Example Table</h1>
+      <table id = "example">
+        <tr>
+          <td>
+            1.1
+          </td>
+          <td>
+            1.2
+          </td>
+        </tr>
+        <tr>
+          <td>
+            2.1
+          </td>
+          <td>
+            2.2
+          </td>
+        </tr>
+      </table>
+    <h1>Results go here</h1>
+    <div id="result">
+    </div>
+  </body>
+</html>

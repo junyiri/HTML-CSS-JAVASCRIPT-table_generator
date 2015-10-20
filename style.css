@@ -1,0 +1,17 @@
+table{
+  background-color: purple;
+  padding: 10px;
+  color: white;
+}
+
+#example td{
+  background-color: hotpink;
+  height: 20px;
+  width: 20px;
+}
+
+#result td{
+  background-color: darkgreen;
+  height: 20px;
+  width: 20px;
+}
